@@ -1,0 +1,40 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    transition: background-color 0.5s ease;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+  }
+  
+  
+  @media (min-width: 1025px) {
+    body {
+      background-color: #0000ff;
+      color: #ffffff;
+    }
+  }
+  
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    body {
+      background-color: #00ff00;
+      color: #000000;
+    }
+  }
+  
+
+  @media (max-width: 767px) {
+    body {
+      background-color: #ff0000;
+      color: #000000;
+    }
+  }
